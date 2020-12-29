@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{}
+
+.container{
+    width: 1200px;
+    margin: auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.banner{}
+.banner img{
+	width: 100%
+}
+img{
+    max-width: 100%;
+}
+
+/* Header-Section-CSS */
+
+.header-section{
+    padding: 30px 0;
+   
+}
+.header-left{
+    float: left;
+    width: 20%;
+}
+.header-logo{}
+.header-logo a{}
+.header-logo a img{}
+.header-right{
+    float: right;
+    width: 80%;
+}
+.header-menu {}
+.header-menu ul{
+    text-align: right;
+}
+.header-menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.header-menu ul li a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 0 30px;
+    color: #000;
+    transition: .4s;
+}
+.header-menu ul li a:hover{
+    color: rgb(39, 39, 180);
+}
+
+/* Banner-Section-CSS */
+
+.banner-section{
+    background: url(./img/banner.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 300px 0;
+}
+
+/* About-Section-CSS */
+
+.about-section{
+    padding: 80px 0;
+    background: #fafafa;
+}
+
+.about-content{}
+.about-content h3 {
+	font-size: 24px;
+	color: #7d7d7d;
+}
+.about-content h2 {
+	margin-top: 35px;
+	font-size: 38px;
+	font-weight: 500;
+	text-shadow: 3px 3px 4px #7ab9ad3d;
+}
+.about-content p {
+	margin-top: 15px;
+	font-size: 20px;
+	line-height: 30px;
+	width: 1083px;
+	margin-bottom: 40px;
+}
+
+/* Features-Section-CSS */
+
+.features-section{
+    padding: 80px 0;
+}
+.features-title{
+    text-align: center;
+}
+.features-title h2 {
+	font-size: 60px;
+	margin-bottom: 20px;
+	color: #00c3ff;
+	text-shadow: 3px 3px 5px #0000002b;
+}
+.features-title p {
+	font-size: 20px;
+	width: 592px;
+	margin: auto;
+	line-height: 25px;
+}
+
+.features-item{}
+.features-box{
+    float: left;
+    width: 50%;
+    padding-right: 30px;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+.features-box:nth-child(2,4){
+    padding-right: 0;
+    
+}
+
+.features-box a{}
+.features-box a img{
+    width: 100%;
+}
+.features-box h3 {
+	margin-top: 30px;
+	font-size: 24px;
+	font-weight: 600;
+	color: #7d7d7d;
+}
+.features-box h2 {
+	margin-top: 30px;
+	font-size: 40px;
+	font-weight: 500;
+}
+.features-box p {
+	margin-top: 25px;
+	font-size: 20px;
+	line-height: 27px;
+	padding-right: 30px;
+}
+
+/* Newsletter-Section-CSS */
+
+.newsletter-section{
+    padding: 80px 0;
+    background: #f0f0f0;
+}
+.newsletter-title{
+    text-align: center;
+}
+.newsletter-title h2 {
+	font-size: 60px;
+	margin-bottom: 20px;
+	color: #000;
+	text-shadow: 3px 3px 5px #54a4c452;
+}
+.newsletter-title form{}
+.newsletter-title form input {
+	display: inline-block;
+	border: none;
+	background: #f0f0f0;
+	font-size: 26px;
+	font-family: 'Times new Roman';
+	color: #000;
+	margin-top: 50px;
+	text-align: left;
+	width: 600px;
+	border-bottom: 2px solid #000;
+}
+.newsletter-title form span {
+	display: inline-block;
+	font-size: 20px;
+	text-align: left;
+	margin-left: -40px;
+}
+
+/* Testimonilas-Section-CSS */
+
+.testimonials-section{
+    padding-top: 30px;
+    margin-bottom: 80px;
+}
+.button-area{
+    text-align: center;
+}
+.button-area a {
+	display: inline-block;
+	text-decoration: none;
+	margin-top: 40px;
+	font-size: 30px;
+	border: 1px solid #da2b2b;
+	padding: 10px 40px;
+	color: #211d1d;
+	border-radius: 10px;
+	transition: .4s;
+	box-shadow: 3px 3px 20px 0 rgb(136, 128, 128);
+}
+}
+
+.button-area a:hover{
+    color: #fff;
+    background: #000;
+}
+
+
+/* Footer-Section-CSS */
+
+.footer-section{
+    padding: 50px 0;
+    background: #f0f0f0;
+    margin-top: 80px;
+}
+.footer-title{
+    float: left;
+    width: 60%;
+}
+.footer-title p {
+	font-size: 22px;
+}
+.footer-title p span{
+    margin-left: 10px;
+}
+.footer-menu{
+    float: right;
+    width: 40%;
+}
+.footer-menu ul{
+    text-align: right;
+}
+.footer-menu ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-menu ul li a {
+	text-decoration: none;
+	display: inline-block;
+	padding: 0 15px;
+	font-size: 20px;
+    color: #000;
+    transition: .4s;
+}
+.footer-menu ul li a:hover{
+    color: rgb(38, 223, 230);
+
+}
+
+.footer-menu ul li a .follow{
+
+}
